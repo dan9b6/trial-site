@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+.header {
+  background-color: #154941;
+  padding: 0;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  position: relative;
+  width: 140px;
+  height: 100px;
+}
+
+.header__links {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  height: 86vh;
+  width: 100%;
+  background-color: #154941;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__links ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
+  margin-bottom: 80px;
+}
+
+.header__links ul li {
+  margin: 30px;
+  font-size: 18px;
+}
+
+.header__links ul li a {
+  color: white;
+}
+
+.nav-toggle-btn {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.nav-toggle-btn span {
+  position: absolute;
+  height: 1px;
+  width: 45px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.nav-toggle-btn span:nth-child(1) {
+  position: absolute;
+  top: 12px;
+}
+
+.nav-toggle-btn span:nth-child(2) {
+  position: absolute;
+  top: 24px;
+}
+
+.nav-toggle-btn span:nth-child(3) {
+  position: absolute;
+  top: 36px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */
